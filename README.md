@@ -1,24 +1,30 @@
-# README
+Training Platform
+=================
+An app who gives the opportunity to know
+what should be your task in the bussiness.
+------------------------------------------
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+#### Welcome to the repository
 
-Things you may want to cover:
+Fell free to acces [git repository]
 
-* Ruby version
+> ## Lorem Ipsum Efam tidsum solicitudin gravid Etiaml 
+>
+> Nam nec justo Sod.AImsndjkmc
+>
+> Donec malesuada aliquam *gravida*.
 
-* System dependencies
+Donec malesuada aliquam **gravida**.
 
-* Configuration
+###Daaaaammm
+* Rapid development
++ tested
+- aaah siii
 
-* Database creation
 
-* Database initialization
+###averrrr que rollo
+1. el número uno
+2. el dos
+3. y así
 
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+simon loco, 'si padrino'
