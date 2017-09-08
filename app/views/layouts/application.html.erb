@@ -9,6 +9,13 @@
   </head>
 
   <body>
+    <%= link_to "Home", root_path %>
+    <%= link_to "Guides", welcome_guides_path %>
+    <%= link_to "Video Trainings", welcome_videos_path %>
+    <%= link_to "Courses", welcome_courses_path %>
+    <%= link_to "News", welcome_news_path %>
+    <%= link_to "About Us", welcome_about_path %>
+    <%= link_to "Upload", welcome_workers_path %>
     <%= yield %>
   </body>
 </html>

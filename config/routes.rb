@@ -1,4 +1,20 @@
 Rails.application.routes.draw do
+  get 'welcome/index'
+
+  get 'welcome/guides'
+
+  get 'welcome/videos'
+
+  get 'welcome/courses'
+
+  get 'welcome/news'
+
+  get 'welcome/about'
+  
+  get 'welcome/workers'
+
   resources :workers
-  # For details on the DSL available within this file, see http://guides.rubyonrails.org/routing.html
+  
+  root to: 'welcome#index'
+  
 end
