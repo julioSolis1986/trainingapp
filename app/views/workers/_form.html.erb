@@ -1,0 +1,62 @@
+<%= form_with(model: worker, local: true) do |form| %>
+  <% if worker.errors.any? %>
+    <div id="error_explanation">
+      <h2><%= pluralize(worker.errors.count, "error") %> prohibited this worker from being saved:</h2>
+
+      <ul>
+      <% worker.errors.full_messages.each do |message| %>
+        <li><%= message %></li>
+      <% end %>
+      </ul>
+    </div>
+  <% end %>
+
+  <div class="field">
+    <%= form.label :name %>
+    <%= form.text_field :name, id: :worker_name %>
+  </div>
+
+  <div class="field">
+    <%= form.label :nickname %>
+    <%= form.text_field :nickname, id: :worker_nickname %>
+  </div>
+
+  <div class="field">
+    <%= form.label :email %>
+    <%= form.text_field :email, id: :worker_email %>
+  </div>
+
+  <div class="field">
+    <%= form.label :phone %>
+    <%= form.text_field :phone, id: :worker_phone %>
+  </div>
+
+  <div class="field">
+    <%= form.label :role %>
+    <%= form.text_field :role, id: :worker_role %>
+  </div>
+
+  <div class="field">
+    <%= form.label :city %>
+    <%= form.text_field :city, id: :worker_city %>
+  </div>
+
+  <div class="field">
+    <%= form.label :state %>
+    <%= form.text_field :state, id: :worker_state %>
+  </div>
+
+  <div class="field">
+    <%= form.label :company %>
+    <%= form.text_field :company, id: :worker_company %>
+  </div>
+
+  <div class="field">
+    <%= form.label :date %>
+    <%= form.datetime_select :date, id: :worker_date %>
+  </div>
+
+  <div class="actions">
+    <%= form.submit %>
+  </div>
+<% end %>
